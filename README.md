@@ -1,23 +1,23 @@
-# Hina Land — bêta 0.9.0
+# Hina Land — bêta 0.10.0
 
 Minecraft Java 1.20.1 · Forge 47.3.0 · Java 17
 
-**[JAR compilé 0.9.0](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.9.0.jar)** · **[Modpack de test 3 — 22 JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.9.0-modpack-test-3.zip)**
+**[JAR installable 0.10.0](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.10.0.jar)** · **[Modpack de test 4 — 22 JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.10.0-modpack-test-4.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.10.0-sources.zip)
 
-Cinq musiques fournies intégrées : Mario, Sonic et playlist de trois morceaux OMORI. Roche et bedrock thématiques jusqu’en profondeur, faces d’herbe, extrémités des troncs et dessus du grès raccordés aux textures présentes.
+Les nouveaux packs fournissent les textures compatibles des blocs Mario, Sonic, OMORI et DELTARUNE. Douze fleurs sont intégrées et générées naturellement. DELTARUNE rejoint l’Overworld avec quatre variantes, portant le total à seize biomes Hina Land.
 
-Les douze biomes dans l’Overworld et les régions agrandies de 0.8.0 restent inclus : plaines, forêts, hauts plateaux et dunes pour Mario, Sonic et OMORI. Le ciel violet étoilé OMORI est conservé.
+Skelerex, Pokey, Rudinn, Hathy et Omochao sont ajoutés. Koopa se replie en carapace, Skelerex se reconstitue, les Darkners tirent des diamants ou des cœurs et peuvent être apaisés à main vide. Les sept monstres Lethal, **Ghost Girl comprise**, restent dans des zones couvertes. De petits postes de récupération se génèrent, avec les 27 objets MirRP. Les cinq musiques et le ciel étoilé OMORI sont conservés.
 
 ## Installation
 
-Remplacer l’ancien JAR Hina Land par 0.9.0, sans conserver deux versions. Le JAR seul nécessite GeckoLib 4.4.9 et TerraBlender 3.0.1.7.
+Remplacer l’ancien JAR Hina Land sans garder plusieurs versions. Le JAR seul nécessite GeckoLib 4.4.9 et TerraBlender 3.0.1.7. Le pack contient mods, config et resourcepacks : les copier dans une nouvelle instance Forge. Activer le petit resourcepack d’intégration fourni. Les ressources sélectionnées des gros packs sont déjà incorporées au JAR.
 
-Le modpack contient `mods`, `config` et `resourcepacks`. Copier `terrablender.toml` pour obtenir les régions agrandies et le poids vanilla réduit. Activer HinaLand-integration-textures.zip. **Créer un nouveau monde ou explorer de nouveaux chunks** : les anciens chunks restent inchangés. Les pistes suivent le réglage Musique de Minecraft.
+Créer un monde neuf ou explorer de nouveaux chunks. Copier terrablender.toml pour les grandes régions et le poids vanilla réduit. Les œufs Lethal s’utilisent dans une salle couverte.
 
-## Validations et limites
+## Validation et limites
 
-Douze GameTests Forge réussis, cinq OGG intégralement décodés, musiques actives confirmées par le moteur du client de production, douze sites naturels contrôlés jusque sous Y=0. Client et serveur testés avec les 22 JAR. La sortie audio du cloud ne permet pas une écoute humaine.
+22 GameTests Forge réussis, 16 sites naturels vérifiés jusque sous Y=0, les 12 fleurs comptées dans les chunks et 9 coffres de postes Lethal identifiés. 856 JSON et 18 modèles contrôlés. Client et serveur de production testés avec les 22 JAR.
 
-**Les images des fleurs évoquées par l’utilisateur sont introuvables dans les fichiers accessibles** ; leur intégration exacte reste en attente. Lunaria Media manque au paquet et trois succès restent bloqués. Structures, autres univers, boss et comportements Lethal complets restent à terminer ; le Hoarding Bug ne transporte pas encore les coffres.
+Les IA et modèles restent des adaptations : Rudinn/Hathy sont des sprites, plusieurs autres CEM restent à convertir, et le système Lethal n’a pas encore lunes, quotas ou vaisseau. La détection d’intérieur accepte les petites salles et tunnels ; ses limites sont détaillées dans le rapport. Lunaria Media manque toujours et trois succès sont bloqués ; le mod de quêtes fourni peut ajouter de nouveau ses chapitres au démarrage. Une campagne complète, tous les clips d’animation et les performances d’une longue exploration ne sont pas validés.
 
-[Rapport 0.9.0](docs/RAPPORT_AUDIO_GEOLOGIE_0.9_FR.md) · [Empreintes 0.9.0](docs/SHA256SUMS-0.9.0.txt) · [Rapport de génération 0.8.0](docs/RAPPORT_WORLDGEN_0.8_FR.md)
+[Rapport complet 0.10.0](docs/RAPPORT_PACKS_CREATURES_0.10_FR.md) · [Empreintes des téléchargements](docs/SHA256SUMS-0.10.0.txt) · [Rapport précédent 0.9.0](docs/RAPPORT_AUDIO_GEOLOGIE_0.9_FR.md)
