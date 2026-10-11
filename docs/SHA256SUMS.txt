@@ -1,0 +1,2 @@
+282c2cf5622fe56425dc7a5c13694fb529026cdfadde077db22763a1b71968ff  hinaland-0.7.0.jar
+a65c63ab2c2a41266701a6c8a11a9c102094c0ec78ba0d98ca0b47273dbbd904  HinaLand-0.7.0-modpack-test-1.zip
