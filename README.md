@@ -1,25 +1,29 @@
-# Hina Land — bêta 0.13.0
+# Hina Land — bêta 0.14.0
 
 Minecraft Java 1.20.1 · Forge 47.3.0 · Java 17
 
-**[Télécharger le JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.13.0.jar)** · **[Modpack de test 7 — 22 JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.13.0-modpack-test-7.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.13.0-sources.zip)
+**[Télécharger le JAR compilé](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.14.0.jar)** · **[Modpack de test 8 — 22 JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.14.0-modpack-test-8.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.14.0-sources.zip)
 
-Les entrées March et Offense mènent, au clic droit, à une dimension Lethal contenant la zone industrielle convertie de la carte Bedrock fournie. Le retour mémorise l’entrée de chaque joueur. 42 modèles industriels avec leurs textures sont intégrés ; les sept monstres Lethal gardent leurs animations et comportements Java et leur restriction aux intérieurs. Une porte peut aussi être fabriquée avec quatre lingots de fer et deux alliages de la Compagnie. Le complexe est fini et commun à toutes les entrées.
+Cette version ajoute **trois minerais supplémentaires par chacun des sept univers**, leurs blocs de stockage et trois niveaux d’équipement : 21 pioches, 21 épées, 21 haches et 84 pièces d’armure. Les 14 minerais précédents restent présents. 231 nouvelles recettes minérales accompagnent cette progression. Les textures fournies sont réutilisées, notamment les tenues Mario, OMORI et DELTARUNE ; certaines autres tenues utilisent des textures Minecraft.
 
-L’Overworld Normal utilise exclusivement les 28 biomes Hina Land des sept univers. Les dix ennemis thématiques peuvent apparaître à la surface en journée, avec des animaux sur les sols moddés. Les constructions naturelles sont limitées à dix modèles sélectionnés, espacés et contrôlés sur terrain sec avec des fondations ; les anciens placements répétitifs sont désactivés. Les cellules vides préservent le terrain autour des façades.
+Les **blocs « ? » Mario fonctionnent** au clic, à la frappe ou lors d’un saut sous le bloc. Ils donnent une récompense unique et deviennent épuisés. Les pièces peuvent s’échanger ; le Super Champignon nourrit et donne une absorption temporaire. Le jardin bonus Mario, le sanctuaire d’anneau Sonic, le pique-nique OMORI et la cour échiquier DELTARUNE rejoignent les constructions existantes. Sept nouveaux portails du Nether thématiques possèdent un cadre d’obsidienne **complet et déjà allumé**. Les anciennes ruines enregistrées dans un monde ne sont pas réparées automatiquement.
 
-Le Nether mélange toujours les 63 biomes vanilla, avec des parcelles plus petites et un niveau d’eau abaissé à Y=0. Le sommeil y est conservé. Les textures, fleurs, musiques, ciel OMORI, 14 ressources minérales et 77 crafts de la version précédente restent présents.
+Les modèles et proportions des 18 créatures ont été repris ou contrôlés, avec des silhouettes Mario plus reconnaissables, de nouveaux modèles pour les deux robots Sonic, une géométrie compacte pour le Sprout Mole, des sprites DELTARUNE correctement proportionnés et des échelles Lethal ajustées. Les animations et comportements existants restent présents. La comparaison directe à des images officielles identifiées reste incomplète pour Moto Bug et Buzz Bomber ; les adaptations cubiques ne sont pas des reproductions exactes.
 
 ## Installation
 
-Remplacer l’ancien JAR Hina Land dans `mods` et **créer un monde neuf de type Normal**. Les anciennes sauvegardes et leurs générateurs ne sont pas migrés automatiquement. Le JAR seul nécessite GeckoLib 4.4.9 et TerraBlender 3.0.1.7 ; ces dépendances sont incluses dans le modpack. Copier `mods`, `config` et `resourcepacks` dans une instance Forge dédiée, puis activer le petit pack d’intégration fourni.
+Remplacer l’ancien JAR Hina Land dans `mods`. Le JAR seul nécessite **GeckoLib 4.4.9 et TerraBlender 3.0.1.7** ; le modpack les inclut. Copier ses `mods`, `config` et `resourcepacks` dans une instance dédiée et activer le pack d’intégration.
+
+Une **copie de sauvegarde Normal 0.13** a été testée avec la mise à jour. Conserver une sauvegarde et explorer de **nouveaux chunks** pour les nouveaux minerais et constructions. Pour les versions antérieures, le nouveau monde Normal reste la solution contrôlée ; les anciens générateurs ne sont pas migrés automatiquement.
 
 ## Vérification
 
-**32 GameTests Forge réussis**, compilation Gradle et JAR réobfusqué. 1 990 JSON et 18 modèles/animations GeckoLib contrôlés. Client et serveur de production avec les 22 mods : affichage de la carte convertie, passages March/Offense et retours à la bonne entrée. Apparitions réellement naturelles en journée dans Mario, et des sept espèces dans les intérieurs Lethal. Population Lethal réduite après observation de la surpopulation initiale.
+**40 GameTests Forge réussis**, compilation Gradle et JAR réobfusqué. Les recettes, réparations, protections, tiers de minage, récompenses uniques et cadres de portail dans leurs quatre orientations sont contrôlés. Les 21 minerais supplémentaires sont présents dans **63 chunks réellement générés** sur sept sites. 2 893 JSON, 18 modèles/animations, 42 couches d’armure et neuf animations de sprites ont été vérifiés.
 
-Audit de 16 641 positions par dimension : 28 biomes Hina et zéro identifiant vanilla dans l’Overworld ; 60 des 63 biomes possibles observés dans le Nether. Neuf sites Nether enregistrés : aucune eau au-dessus de Y=0 et aucune surface en eau sur les 2 304 colonnes examinées. De l’eau reste possible plus bas.
+Client et serveur avec les 22 mods : créatures et équipements affichés, clic et saut sous les blocs du jardin Mario naturel, consommation du Super Champignon, puis **aller-retour réel par un portail naturel** entre Overworld et Nether. Une copie du monde 0.13 conserve sa porte Lethal et génère les trois nouveaux minerais OMORI dans neuf nouveaux chunks.
 
-Les contrôles ne valident pas une longue partie sur plusieurs graines, le multijoueur simultané ou la migration d’un ancien monde. Les façades ne reproduisent pas toute la topographie March/Offense. L’End custom, les missions/quotas/navette Lethal et le transport de coffres pleins par le Hoarding Bug restent à développer. Lunaria Media manque toujours et le compagnon de quêtes fourni peut dupliquer ses chapitres au redémarrage.
+L’Overworld Normal conserve ses 28 biomes Hina sans identifiant de biome vanilla ; le Nether conserve ses 63 biomes vanilla mélangés en petites parcelles et son niveau d’eau à Y=0. L’intérieur Lethal, les entrées March/Offense, les fleurs, musiques et ciel OMORI restent présents. Les rapports précédents précisent leurs vérifications.
 
-[Rapport détaillé et limites](docs/RAPPORT_GENERATION_LETHAL_0.13_FR.md) · [Empreintes des téléchargements](docs/SHA256SUMS-0.13.0.txt) · [Version précédente 0.12](docs/RAPPORT_MINERAIS_0.12_FR.md)
+L’équilibrage prolongé, plusieurs graines et le multijoueur simultané ne sont pas validés. L’écoute audio n’est pas vérifiable avec le périphérique nul de l’environnement. Le transport de coffres pleins, l’End custom et les missions complètes Lethal restent à développer. Lunaria Media manque et le compagnon de quêtes fourni peut dupliquer ses chapitres au redémarrage.
+
+[Rapport détaillé](docs/RAPPORT_PEAUFINAGE_0.14_FR.md) · [Empreintes des fichiers](docs/SHA256SUMS-0.14.0.txt) · [Rapport précédent 0.13](docs/RAPPORT_GENERATION_LETHAL_0.13_FR.md)

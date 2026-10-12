@@ -1,0 +1,106 @@
+{
+  "new_structures": [
+    {
+      "family": "mario",
+      "structure": "mario_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "omori",
+      "structure": "omori_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_nether_gateway",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "mario",
+      "structure": "mario_bonus_garden",
+      "size": [
+        13,
+        7,
+        9
+      ]
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_ring_shrine",
+      "size": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "family": "omori",
+      "structure": "omori_picnic",
+      "size": [
+        9,
+        4,
+        9
+      ]
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_chess_court",
+      "size": [
+        9,
+        7,
+        9
+      ]
+    }
+  ],
+  "portals": "Complete 4x5 vanilla obsidian frames, lit, seven family-themed grounded landmarks",
+  "shared_grid_spacing": 48,
+  "shared_grid_separation": 24
+}
