@@ -1,0 +1,557 @@
+{
+  "profiles": [
+    {
+      "key": "mario",
+      "biomes": [
+        "hinaland:mario"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 0,
+      "upper_colour": [
+        0.07059,
+        0.58039,
+        0.99608
+      ],
+      "lower_colour": [
+        0.49804,
+        0.81569,
+        0.24314
+      ],
+      "inspiration": "World 1 — New Super Mario Bros. Wii",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "mario_forest",
+      "biomes": [
+        "hinaland:mario_forest"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 1,
+      "upper_colour": [
+        0.3098,
+        0.82745,
+        0.99216
+      ],
+      "lower_colour": [
+        0.01176,
+        0.30588,
+        0.41569
+      ],
+      "inspiration": "World 5 — New Super Mario Bros. Wii",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "mario_highlands",
+      "biomes": [
+        "hinaland:mario_highlands"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 2,
+      "upper_colour": [
+        0.27451,
+        0.67451,
+        0.99216
+      ],
+      "lower_colour": [
+        0.26275,
+        0.42745,
+        0.62353
+      ],
+      "inspiration": "World 6 — New Super Mario Bros. Wii",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "mario_dunes",
+      "biomes": [
+        "hinaland:mario_dunes"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 3,
+      "upper_colour": [
+        0.98824,
+        0.81176,
+        0.64706
+      ],
+      "lower_colour": [
+        0.98824,
+        0.7098,
+        0.33333
+      ],
+      "inspiration": "World 2 — New Super Mario Bros. Wii",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "sonic",
+      "biomes": [
+        "hinaland:sonic"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 4,
+      "upper_colour": [
+        0.0,
+        0.35686,
+        0.98824
+      ],
+      "lower_colour": [
+        0.68627,
+        0.36078,
+        0.17255
+      ],
+      "inspiration": "Green Hill",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "sonic_forest",
+      "biomes": [
+        "hinaland:sonic_forest"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 5,
+      "upper_colour": [
+        0.05882,
+        0.72549,
+        0.83137
+      ],
+      "lower_colour": [
+        0.00392,
+        0.25882,
+        0.30588
+      ],
+      "inspiration": "Angel Island",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "sonic_highlands",
+      "biomes": [
+        "hinaland:sonic_highlands"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 6,
+      "upper_colour": [
+        0.3098,
+        0.63137,
+        0.99216
+      ],
+      "lower_colour": [
+        0.31373,
+        0.49804,
+        0.84706
+      ],
+      "inspiration": "Ice Cap",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "sonic_dunes",
+      "biomes": [
+        "hinaland:sonic_dunes"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 7,
+      "upper_colour": [
+        0.88627,
+        0.65098,
+        0.34902
+      ],
+      "lower_colour": [
+        0.96078,
+        0.62745,
+        0.2902
+      ],
+      "inspiration": "Sandopolis",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "deltarune",
+      "biomes": [
+        "hinaland:deltarune"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 8,
+      "upper_colour": [
+        0.32549,
+        0.25098,
+        0.8
+      ],
+      "lower_colour": [
+        0.32941,
+        0.11765,
+        0.54118
+      ],
+      "inspiration": "Field of Hopes and Dreams",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "deltarune_forest",
+      "biomes": [
+        "hinaland:deltarune_forest"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 9,
+      "upper_colour": [
+        0.21961,
+        0.09804,
+        0.40784
+      ],
+      "lower_colour": [
+        0.19608,
+        0.02745,
+        0.2549
+      ],
+      "inspiration": "Scarlet Forest",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "deltarune_highlands",
+      "biomes": [
+        "hinaland:deltarune_highlands"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 10,
+      "upper_colour": [
+        0.06667,
+        0.11373,
+        0.38039
+      ],
+      "lower_colour": [
+        0.06667,
+        0.09804,
+        0.34902
+      ],
+      "inspiration": "Cyber World",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "deltarune_dunes",
+      "biomes": [
+        "hinaland:deltarune_dunes"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 11,
+      "upper_colour": [
+        0.56471,
+        0.45098,
+        0.71765
+      ],
+      "lower_colour": [
+        0.98824,
+        0.73333,
+        0.47059
+      ],
+      "inspiration": "Desert Board — TV Desert (Chapter 3)",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "genshin",
+      "biomes": [
+        "hinaland:genshin"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 12,
+      "upper_colour": [
+        0.1451,
+        0.63137,
+        0.99608
+      ],
+      "lower_colour": [
+        0.43137,
+        0.70196,
+        0.4549
+      ],
+      "inspiration": "Mondstadt",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "genshin_forest",
+      "biomes": [
+        "hinaland:genshin_forest"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 13,
+      "upper_colour": [
+        0.58431,
+        0.86275,
+        0.90588
+      ],
+      "lower_colour": [
+        0.04706,
+        0.39216,
+        0.41961
+      ],
+      "inspiration": "Dharma Forest — Sumeru",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "genshin_highlands",
+      "biomes": [
+        "hinaland:genshin_highlands"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 14,
+      "upper_colour": [
+        0.48627,
+        0.68627,
+        0.93333
+      ],
+      "lower_colour": [
+        0.56078,
+        0.67843,
+        0.87059
+      ],
+      "inspiration": "Dragonspine",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "genshin_dunes",
+      "biomes": [
+        "hinaland:genshin_dunes"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 15,
+      "upper_colour": [
+        0.96471,
+        0.71373,
+        0.56471
+      ],
+      "lower_colour": [
+        0.70196,
+        0.4,
+        0.37255
+      ],
+      "inspiration": "Great Red Sand",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "overwatch",
+      "biomes": [
+        "hinaland:overwatch"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 16,
+      "upper_colour": [
+        0.3451,
+        0.64706,
+        0.99216
+      ],
+      "lower_colour": [
+        0.28235,
+        0.4549,
+        0.76471
+      ],
+      "inspiration": "Ilios",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "overwatch_forest",
+      "biomes": [
+        "hinaland:overwatch_forest"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 17,
+      "upper_colour": [
+        0.41176,
+        0.58039,
+        0.76863
+      ],
+      "lower_colour": [
+        0.09804,
+        0.17255,
+        0.23529
+      ],
+      "inspiration": "Black Forest",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "overwatch_highlands",
+      "biomes": [
+        "hinaland:overwatch_highlands"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 18,
+      "upper_colour": [
+        0.58431,
+        0.6902,
+        0.98824
+      ],
+      "lower_colour": [
+        0.74902,
+        0.79608,
+        0.99216
+      ],
+      "inspiration": "Ecopoint Antarctica",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "overwatch_dunes",
+      "biomes": [
+        "hinaland:overwatch_dunes"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 19,
+      "upper_colour": [
+        0.95294,
+        0.55294,
+        0.44314
+      ],
+      "lower_colour": [
+        0.65882,
+        0.29412,
+        0.27451
+      ],
+      "inspiration": "Route 66",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "lethal",
+      "biomes": [
+        "hinaland:lethal"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 20,
+      "upper_colour": [
+        0.3451,
+        0.40392,
+        0.46667
+      ],
+      "lower_colour": [
+        0.2,
+        0.22353,
+        0.25882
+      ],
+      "inspiration": "Experimentation",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "lethal_forest",
+      "biomes": [
+        "hinaland:lethal_forest"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 21,
+      "upper_colour": [
+        0.39608,
+        0.47843,
+        0.48235
+      ],
+      "lower_colour": [
+        0.14118,
+        0.20392,
+        0.22353
+      ],
+      "inspiration": "March",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "lethal_highlands",
+      "biomes": [
+        "hinaland:lethal_highlands"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 22,
+      "upper_colour": [
+        0.71373,
+        0.76471,
+        0.82745
+      ],
+      "lower_colour": [
+        0.79216,
+        0.84314,
+        0.90196
+      ],
+      "inspiration": "Dine",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "lethal_dunes",
+      "biomes": [
+        "hinaland:lethal_dunes"
+      ],
+      "texture": "hinaland:textures/environment/biome_sky_atlas.png",
+      "columns": 6,
+      "rows": 4,
+      "tile": 23,
+      "upper_colour": [
+        0.62353,
+        0.58431,
+        0.54902
+      ],
+      "lower_colour": [
+        0.32549,
+        0.27451,
+        0.26275
+      ],
+      "inspiration": "Offense",
+      "kind": "Original pixel-art interpretation, not an official screenshot"
+    },
+    {
+      "key": "omori",
+      "biomes": [
+        "hinaland:omori",
+        "hinaland:omori_forest",
+        "hinaland:omori_highlands",
+        "hinaland:omori_dunes"
+      ],
+      "texture": "hinaland:textures/environment/omori_sky_reference.png",
+      "columns": 1,
+      "rows": 1,
+      "tile": 0,
+      "upper_colour": [
+        0.25,
+        0.13,
+        0.4
+      ],
+      "lower_colour": [
+        0.25,
+        0.13,
+        0.4
+      ],
+      "inspiration": "Existing OMORI violet starred panorama, unchanged",
+      "kind": "Preserved supplied reference"
+    }
+  ]
+}

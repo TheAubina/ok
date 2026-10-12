@@ -1,0 +1,42 @@
+{
+  "revision": 1,
+  "template": "hinaland:lethal_entry_hall",
+  "offset": [
+    64,
+    4,
+    35
+  ],
+  "size": [
+    15,
+    6,
+    9
+  ],
+  "arrival": [
+    75,
+    5,
+    41
+  ],
+  "arrival_yaw": 110,
+  "return_door": [
+    78,
+    5,
+    39
+  ],
+  "native_connector": [
+    64,
+    5,
+    39
+  ],
+  "native_walk_target": [
+    64,
+    5,
+    47
+  ],
+  "legacy_return_door": [
+    83,
+    5,
+    56
+  ],
+  "blocks_in_patch": 602,
+  "policy": "Apply once per saved dimension revision. Do not reinstall the original map; all blocks outside this bounded patch and two legacy door cells are preserved."
+}

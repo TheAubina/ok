@@ -1,22 +1,22 @@
-# Hina Land — bêta 0.16.1
+# Hina Land — bêta 0.17.0
 
 Minecraft Java 1.20.1 · Forge 47.3.0 · Java 17
 
-**[Télécharger le JAR compilé](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.16.1.jar)** · **[Modpack de test 10 — 23 mods, Lunaria inclus](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.16.1-modpack-test-10.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.16.1-sources.zip)
+**[Télécharger le JAR compilé](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.17.0.jar)** · **[Modpack test 11 — 23 mods](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.17.0-modpack-test-11.zip)** · [Sources](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.17.0-sources.zip)
 
-**32 nouvelles créatures, 50 Hina au total.** Mario reçoit Bob-omb, Boo, Maskass, Kamek, Frère Marto, Plante Piranha, Topi Taupe et Hériss ; Sonic quatre robots ; OMORI et DELTARUNE six ennemis chacun ; Genshin et Overwatch quatre chacun. Les sept Lethal précédents et Omochao sont conservés. [Catalogue des créatures et capacités](docs/CATALOGUE_CREATURES_0.16_FR.md).
+**25 ambiances de ciel pour les 28 biomes**, avec variantes Mario World 1/forêt/montagne/désert et un ciel OMORI commun inchangé. Panoramas originaux inspirés des univers, avec transition et éclairage nocturne. [Catalogue et références](docs/CATALOGUE_CIELS_0.17_FR.md).
 
-**Les monstres vanilla sont bloqués dans l’Overworld**, y compris les entités enregistrées, commandes et anciens générateurs. Les animaux passifs/neutres restent autorisés ; le Nether conserve ses monstres. Les générateurs hostiles vanilla de l’Overworld sont convertis au chargement vers un ennemi du biome local. Les pièces Mario bleues sont renommées **costume Pingouin**, les vertes **costume Grenouille**, avec identifiants et recettes préservés.
+**Textures améliorées pour 21 créatures voxel, 35 blocs et 24 icônes.** Les modèles restent des adaptations simples ; les sprites, armures et sept modèles Lethal originaux sont préservés. 50 créatures Hina au total, blocage des monstres vanilla de l’Overworld conservé.
 
-**Lunaria Media 2.1.0** est inclus, inchangé. Son chargement client/serveur, sa télévision et son menu sont vérifiés ; la lecture audio/vidéo reste à tester. Les trois avancées qui référençaient ses objets sont désormais enregistrées.
+**March et Offense arrivent dans un hall Lethal éclairé**, avec sortie et accès aux couloirs d’origine. Les deux allers-retours et le déplacement à pied dans les couloirs ont été vérifiés. Sur une copie d’ancien monde, 400 316 états de blocs hors de la zone du hall restent identiques.
 
-**59 tests Forge réussis**, migration d’une copie de sauvegarde 0.15, connexion du client avec 23 mods, rendu des 32 nouvelles créatures. L’audit a confirmé 13 Pyroblobs, 13 Cryoblobs et 7 Brutocollinus avec provenance NATURAL, et des animaux vanilla passifs. Les capacités sont des adaptations Minecraft : 21 nouveaux modèles voxel simples, 11 créatures sur plans 2D. La fidélité artistique et l’équilibrage demandent encore du travail. [Rapport détaillé, preuves et limites](docs/RAPPORT_CREATURES_0.16_FR.md) · [Empreintes SHA-256](docs/SHA256SUMS-0.16.1.txt).
+**62 GameTests Forge réussis**, compilation du JAR final et contrôles dans le client Minecraft. [Rapport précis et limites](docs/RAPPORT_VISUEL_0.17_FR.md) · [Empreintes SHA-256](docs/SHA256SUMS-0.17.0.txt).
 
 ## Installation
 
-Remplacer l’ancien JAR Hina Land dans `mods`. Le JAR seul nécessite **GeckoLib 4.4.9 et TerraBlender 3.0.1.7** ; le modpack les inclut. Copier ses `mods`, `config` et `resourcepacks` dans une instance dédiée, conserver une seule version de Hina Land/Lunaria et activer le pack d’intégration.
+Remplacer l’ancien JAR Hina Land dans `mods`. Le JAR seul nécessite GeckoLib 4.4.9 et TerraBlender 3.0.1.7 ; le modpack les inclut, ainsi que Lunaria Media 2.1.0 inchangé. Copier `mods`, `config` et `resourcepacks` dans une instance dédiée ; activer HinaLand-integration-textures et conserver une seule version de chaque mod.
 
-Conserver une sauvegarde avant mise à jour. Les nouvelles apparitions et les libellés concernent les biomes existants ; explorer de nouveaux chunks pour les nouveaux bâtiments. La copie Normal 0.15 testée s’ouvre en 0.16, sans validation exhaustive de toutes les sauvegardes antérieures. Le compagnon de quêtes peut encore dupliquer des chapitres au redémarrage ; le pack distribue une configuration propre.
+Sauvegarder les mondes : le hall est ajouté une seule fois à l’ancien intérieur, dans la zone x64..78, y68..73, z35..43, plus l’ancienne porte. Une construction personnelle dans cette petite zone peut être remplacée lors de la migration. Les autres zones sont préservées. Les tests prolongés à plusieurs joueurs, l’audio/vidéo Lunaria et la fidélité artistique exhaustive restent à vérifier. Le compagnon de quêtes peut dupliquer des chapitres au redémarrage ; les configurations distribuées sont propres.
 
 ## Contenu conservé
 
