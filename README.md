@@ -1,27 +1,25 @@
-# Hina Land — bêta 0.12.0
+# Hina Land — bêta 0.13.0
 
 Minecraft Java 1.20.1 · Forge 47.3.0 · Java 17
 
-**[JAR installable](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.12.0.jar)** · **[Modpack de test 6 — 22 JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.12.0-modpack-test-6.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.12.0-sources.zip)
+**[Télécharger le JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.13.0.jar)** · **[Modpack de test 7 — 22 JAR](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.13.0-modpack-test-7.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.13.0-sources.zip)
 
-Genshin, Overwatch et Lethal rejoignent Mario, Sonic, OMORI et DELTARUNE **dans l’Overworld**, pour 28 biomes Hina Land. Les textures fournies sont intégrées aux blocs thématiques et au sous-sol. 24 fleurs et 32 constructions/décors sont disponibles, avec des coffres et une génération naturelle.
+Les entrées March et Offense mènent, au clic droit, à une dimension Lethal contenant la zone industrielle convertie de la carte Bedrock fournie. Le retour mémorise l’entrée de chaque joueur. 42 modèles industriels avec leurs textures sont intégrés ; les sept monstres Lethal gardent leurs animations et comportements Java et leur restriction aux intérieurs. Une porte peut aussi être fabriquée avec quatre lingots de fer et deux alliages de la Compagnie. Le complexe est fini et commun à toutes les entrées.
 
-Le Nether mélange les 63 biomes vanilla jouables de l’Overworld, du Nether et de l’End sur un terrain ouvert avec eau, ciel et cycle jour/nuit. Les lits permettent de dormir et d’y réapparaître. Les sept monstres Lethal conservent leur restriction aux intérieurs, Ghost Girl comprise. Les créatures, musiques et ciel OMORI de la version 0.10 sont conservés.
+L’Overworld Normal utilise exclusivement les 28 biomes Hina Land des sept univers. Les dix ennemis thématiques peuvent apparaître à la surface en journée, avec des animaux sur les sols moddés. Les constructions naturelles sont limitées à dix modèles sélectionnés, espacés et contrôlés sur terrain sec avec des fondations ; les anciens placements répétitifs sont désactivés. Les cellules vides préservent le terrain autour des façades.
 
-14 minerais et ressources propres aux sept univers sont ajoutés : fragments d’étoile/lune, Émeraude du Chaos/Rubis Fantôme, verre de rêve/pierre du cœur, cristal des Ténèbres/éclat de Lumière, cristaux/améthyste, lumière solide/alliage de la Griffe, noyau d’appareil/alliage de la Compagnie. Ils permettent 77 nouveaux crafts, dont 14 blocs de stockage, 7 pioches et 7 épées. Les noms et usages sont des adaptations Minecraft ; les textures sont réutilisées depuis les packs et ressources existantes.
+Le Nether mélange toujours les 63 biomes vanilla, avec des parcelles plus petites et un niveau d’eau abaissé à Y=0. Le sommeil y est conservé. Les textures, fleurs, musiques, ciel OMORI, 14 ressources minérales et 77 crafts de la version précédente restent présents.
 
 ## Installation
 
-Remplacer l’ancien JAR Hina Land sans garder plusieurs versions. Le JAR seul nécessite GeckoLib 4.4.9 et TerraBlender 3.0.1.7, inclus dans le modpack. Copier mods, config et resourcepacks dans une instance Forge 47.3.0 ; activer le petit pack d’intégration fourni. Les textures thématiques sont déjà dans le JAR.
+Remplacer l’ancien JAR Hina Land dans `mods` et **créer un monde neuf de type Normal**. Les anciennes sauvegardes et leurs générateurs ne sont pas migrés automatiquement. Le JAR seul nécessite GeckoLib 4.4.9 et TerraBlender 3.0.1.7 ; ces dépendances sont incluses dans le modpack. Copier `mods`, `config` et `resourcepacks` dans une instance Forge dédiée, puis activer le petit pack d’intégration fourni.
 
-**Créer un monde neuf pour reproduire le Nether testé.** La migration du Nether d’une sauvegarde existante n’est pas validée. Les nouveaux minerais, biomes et structures Overworld nécessitent des chunks neufs. La configuration TerraBlender conserve de grandes régions et un poids vanilla réduit.
+## Vérification
 
-## Validation et limites
+**32 GameTests Forge réussis**, compilation Gradle et JAR réobfusqué. 1 990 JSON et 18 modèles/animations GeckoLib contrôlés. Client et serveur de production avec les 22 mods : affichage de la carte convertie, passages March/Offense et retours à la bonne entrée. Apparitions réellement naturelles en journée dans Mario, et des sept espèces dans les intérieurs Lethal. Population Lethal réduite après observation de la surpopulation initiale.
 
-28 GameTests Forge réussis ; 1832 JSON et 18 modèles contrôlés. Les 14 nouveaux minerais ont été identifiés dans 63 chunks naturels et leurs crafts, fonte, niveaux de récolte, réparation, Fortune et Toucher de soie ont été vérifiés. Le client et le serveur de production 0.12 ont chargé les 22 mods, avec affichage des blocs et objets. Les contrôles suivants de biomes, lits et structures sont ceux de la version 0.11 conservée. Audit de 16641 positions par dimension : les 28 biomes Hina Land sont observés dans l’Overworld et 58 des 63 biomes vanilla dans le Nether. Inspection de 12 sites naturels des nouveaux thèmes et 9 sites Nether, comptage des 12 nouvelles fleurs et enregistrement de 17 débuts de structures naturelles de 12 types.
+Audit de 16 641 positions par dimension : 28 biomes Hina et zéro identifiant vanilla dans l’Overworld ; 60 des 63 biomes possibles observés dans le Nether. Neuf sites Nether enregistrés : aucune eau au-dessus de Y=0 et aucune surface en eau sur les 2 304 colonnes examinées. De l’eau reste possible plus bas.
 
-Client et serveur de production testés avec 22 mods. Un joueur Survie a dormi dans le Nether, s’est réveillé au matin, est réapparu près de son lit après une mort provoquée et a rejoint le Nether par un portail vanilla. Les plateformes de test étaient placées manuellement.
+Les contrôles ne valident pas une longue partie sur plusieurs graines, le multijoueur simultané ou la migration d’un ancien monde. Les façades ne reproduisent pas toute la topographie March/Offense. L’End custom, les missions/quotas/navette Lethal et le transport de coffres pleins par le Hoarding Bug restent à développer. Lunaria Media manque toujours et le compagnon de quêtes fourni peut dupliquer ses chapitres au redémarrage.
 
-L’End custom reste à réaliser. Pas encore de monstres Genshin/Overwatch, de système complet de lunes/quotas/vaisseau Lethal, ni de campagne complète validée. Certaines plantes hautes restent à intégrer. La génération massive de sites éloignés provoque des pauses ; les performances d’une longue exploration restent à vérifier. Lunaria Media manque toujours et trois succès sont bloqués ; le mod de quêtes fourni peut dupliquer ses chapitres au redémarrage.
-
-[Rapport des minerais 0.12](docs/RAPPORT_MINERAIS_0.12_FR.md) · [Rapport précédent 0.11](docs/RAPPORT_MONDES_STRUCTURES_0.11_FR.md) · [Empreintes des téléchargements](docs/SHA256SUMS-0.12.0.txt) · [Rapport précédent 0.10](docs/RAPPORT_PACKS_CREATURES_0.10_FR.md)
+[Rapport détaillé et limites](docs/RAPPORT_GENERATION_LETHAL_0.13_FR.md) · [Empreintes des téléchargements](docs/SHA256SUMS-0.13.0.txt) · [Version précédente 0.12](docs/RAPPORT_MINERAIS_0.12_FR.md)
