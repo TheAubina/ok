@@ -1,8 +1,8 @@
-# Hina Land — bêta 0.16.0
+# Hina Land — bêta 0.16.1
 
 Minecraft Java 1.20.1 · Forge 47.3.0 · Java 17
 
-**[Télécharger le JAR compilé](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.16.0.jar)** · **[Modpack de test 10 — 23 mods, Lunaria inclus](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.16.0-modpack-test-10.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.16.0-sources.zip)
+**[Télécharger le JAR compilé](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.16.1.jar)** · **[Modpack de test 10 — 23 mods, Lunaria inclus](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.16.1-modpack-test-10.zip)** · [Sources compilables](https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.16.1-sources.zip)
 
 **32 nouvelles créatures, 50 Hina au total.** Mario reçoit Bob-omb, Boo, Maskass, Kamek, Frère Marto, Plante Piranha, Topi Taupe et Hériss ; Sonic quatre robots ; OMORI et DELTARUNE six ennemis chacun ; Genshin et Overwatch quatre chacun. Les sept Lethal précédents et Omochao sont conservés. [Catalogue des créatures et capacités](docs/CATALOGUE_CREATURES_0.16_FR.md).
 
@@ -10,7 +10,7 @@ Minecraft Java 1.20.1 · Forge 47.3.0 · Java 17
 
 **Lunaria Media 2.1.0** est inclus, inchangé. Son chargement client/serveur, sa télévision et son menu sont vérifiés ; la lecture audio/vidéo reste à tester. Les trois avancées qui référençaient ses objets sont désormais enregistrées.
 
-**59 tests Forge réussis**, migration d’une copie de sauvegarde 0.15, connexion du client avec 23 mods, rendu des 32 nouvelles créatures. L’audit a confirmé 13 Pyroblobs, 13 Cryoblobs et 7 Brutocollinus avec provenance NATURAL, et des animaux vanilla passifs. Les capacités sont des adaptations Minecraft : 21 nouveaux modèles voxel simples, 11 créatures sur plans 2D. La fidélité artistique et l’équilibrage demandent encore du travail. [Rapport détaillé, preuves et limites](docs/RAPPORT_CREATURES_0.16_FR.md) · [Empreintes SHA-256](docs/SHA256SUMS-0.16.0.txt).
+**59 tests Forge réussis**, migration d’une copie de sauvegarde 0.15, connexion du client avec 23 mods, rendu des 32 nouvelles créatures. L’audit a confirmé 13 Pyroblobs, 13 Cryoblobs et 7 Brutocollinus avec provenance NATURAL, et des animaux vanilla passifs. Les capacités sont des adaptations Minecraft : 21 nouveaux modèles voxel simples, 11 créatures sur plans 2D. La fidélité artistique et l’équilibrage demandent encore du travail. [Rapport détaillé, preuves et limites](docs/RAPPORT_CREATURES_0.16_FR.md) · [Empreintes SHA-256](docs/SHA256SUMS-0.16.1.txt).
 
 ## Installation
 

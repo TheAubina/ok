@@ -1,6 +1,6 @@
-# Hina Land 0.16.0 — créatures, apparitions et Lunaria
+# Hina Land 0.16.1 — créatures, apparitions et Lunaria
 
-Bêta compilée pour Minecraft Java 1.20.1, Forge 47.3.0, Java 17. Le JAR est un véritable mod Forge réobfusqué, pas un ZIP de sources. GeckoLib 4.4.9 et TerraBlender 3.0.1.7 sont nécessaires au JAR seul et inclus dans le modpack de test 10.
+La 0.16.1 remplace la première 0.16.0 avec la correction des effets de contact Pyro/Cryo. Bêta compilée pour Minecraft Java 1.20.1, Forge 47.3.0, Java 17. Le JAR est un véritable mod Forge réobfusqué, pas un ZIP de sources. GeckoLib 4.4.9 et TerraBlender 3.0.1.7 sont nécessaires au JAR seul et inclus dans le modpack de test 10.
 
 ## Changements
 
@@ -19,12 +19,13 @@ Les 70 constructions introduites en 0.15 restent présentes, dix par chacun des 
 ## Vérifications exécutées
 
 - `./gradlew runGameTestServer build --max-workers=2 --console=plain` : **59 tests requis exécutés et réussis**, exit 0 et BUILD SUCCESSFUL. Les 49 précédents contrôlent notamment les sept Lethal, les équipements, les portails et les 70 nouvelles constructions dans leurs quatre rotations. Dix tests ajoutés contrôlent la politique vanilla, la migration d’un générateur, onze types d’ennemis à projectiles physiques, les comptes à rebours et explosions préservant les blocs, Boo/Newtron, le point faible du Gardien des ruines et Hériss, la plante immobile et les effets Pyro/Cryo, la pacification des six nouveaux Darkners, les soins/enfouissement et le marteau consommable du joueur.
-- Après correction de palettes révélée au contrôle visuel, nouvelle compilation réussie ; aucun code d’IA n’a changé après les 59 tests. Les couleurs Pyro/Cryo ont été recontrôlées en client avec le JAR final.
+- Les palettes Pyro/Cryo ont été corrigées après contrôle visuel. La 0.16.1 corrige aussi leur effet de contact : il est maintenant déclenché par une attaque au corps à corps réussie. Les tests renforcés exécutent `doHurtTarget` et vérifient ensuite le feu/ralentissement, plutôt que d’appeler directement la fonction d’effet. Les 59 tests ont été relancés et réussis après cette correction.
 - Ressources : **3 183 JSON**, **50 modèles et hiérarchies d’animations**, 42 couches d’armures existantes et neuf animations de sprites d’équipement valides. Les 70 structures restent valides, avec douze donjons et aucun nouveau donjon Lethal. Le JAR ne contient pas les classes de GameTest et utilise Java major 61.
 - Serveur Forge réel et client avec **23 mods**, dont Lunaria 2.1.0 : connexion réussie, puis redémarrage avec le JAR final.
 - Migration sur **une copie** de la sauvegarde Normal 0.15, seed 20261015 : un zombie persistant enregistré avant mise à jour est absent après chargement ; un générateur `minecraft:zombie`, dans une construction Genshin placée volontairement pour le test à `-1347 153 -4273`, devient `hinaland:hilichurl`. Une nouvelle commande de zombie est également refusée malgré son message standard « Summoned » ; l’absence réelle est contrôlée ensuite. L’original est conservé. Cette construction de migration n’est pas présentée comme une génération naturelle.
 - Audit d’apparitions près de `-1300.5 151 -4248.5` dans cette copie : **13 Pyroblobs, 13 Cryoblobs et 7 Brutocollinus avec provenance NATURAL**, ainsi que des poules, vaches, cochons et moutons CHUNK_GENERATION. Aucun zombie/squelette/creeper dans cet échantillon. Le Gardien des ruines rencontré sans marque de provenance n’est pas compté comme preuve d’apparition naturelle.
 - Rendu client des **32 nouvelles créatures**, posé sur une plateforme de contrôle avec des invocations : captures Mario, Sonic, OMORI, DELTARUNE, Genshin et Overwatch. Les huit palettes Genshin/Overwatch modifiées ont été revues avec le JAR final. Ces captures ne constituent pas une preuve d’apparition naturelle ou de combat pour chacune des 32 espèces.
+- Avec le JAR 0.16.1, une attaque réelle de Pyroblob sur le joueur Survival déclenche le feu (46 ticks restants dans le NBT contrôlé). Le Cryoblob applique aussi Ralentissement lors d’une attaque réelle (51 ticks restants contrôlés). Ces rencontres contrôlées ne constituent pas un test d’équilibrage.
 - Le menu Lunaria « Télévision · fichier local » s’ouvre au clic droit. Les infobulles françaises « Capuche — costume Pingouin » et « Capuche — costume Grenouille » sont contrôlées en inventaire.
 
 Les journaux, captures, inventaires, références et manifeste sont inclus dans `audit/0.16` du modpack. Des erreurs des services d’authentification/vérification de mises à jour apparaissent dans cet environnement ; elles n’empêchent pas les tests ni cette connexion de contrôle hors ligne.
