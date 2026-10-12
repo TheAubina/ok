@@ -1,0 +1,55 @@
+# Hina Land 0.16.0 — créatures, apparitions et Lunaria
+
+Bêta compilée pour Minecraft Java 1.20.1, Forge 47.3.0, Java 17. Le JAR est un véritable mod Forge réobfusqué, pas un ZIP de sources. GeckoLib 4.4.9 et TerraBlender 3.0.1.7 sont nécessaires au JAR seul et inclus dans le modpack de test 10.
+
+## Changements
+
+**32 nouvelles créatures natives**, soit **50 créatures Hina** au total : 42 ennemis de biomes, Omochao et les sept Lethal existants. Huit ajouts Mario, quatre Sonic, six OMORI, six DELTARUNE, quatre Genshin et quatre Overwatch. Le [catalogue](CATALOGUE_CREATURES_0.16_FR.md) détaille chaque identité, rendu et comportement. Tous les ajouts ont leur œuf, butin et entrée dans les quatre variantes de leur biome. Il n’y a pas 32 variantes de zombie recoloré : les entités utilisent une classe propre et des capacités spécialisées.
+
+**Monstres vanilla bloqués dans l’Overworld.** Le contrôle se fait à l’entrée effective de l’entité dans le monde, donc couvre aussi les sauvegardes, commandes et générateurs. La politique vise les types `minecraft` de catégorie MONSTER ou implémentant Enemy. Les animaux passifs et neutres restent autorisés ; un loup en colère reste donc possible. Les créatures des autres mods restent autorisées. Le Nether conserve ses monstres vanilla. Les 28 tables Hina ne contiennent plus de monstres vanilla.
+
+**Migration des anciens générateurs.** Les générateurs vanilla hostiles de l’Overworld sont convertis, au chargement du chunk, vers un ennemi Hina correspondant à l’univers local. Les générateurs déjà moddés et les passifs ne sont pas remplacés. La conversion attend une fin de tick serveur ; l’exécuter pendant la finalisation du chunk causait un blocage qui a été corrigé. Les nouveaux donjons Genshin/Overwatch utilisent directement Brutocollinus/Fantassin du Secteur zéro. Les bâtiments existants ne sont pas reconstruits.
+
+**Costumes Mario renommés.** Les pièces `fireflower_amber_*` affichent « costume Pingouin » et `superbell_bronze_*` « costume Grenouille ». Les noms de minerais, identifiants, recettes et matériaux de réparation restent distincts et stables, préservant les objets enregistrés. « Kamek » et « Frère Marto » remplacent les anciens libellés français du Magikoopa et du frère marteau. Les identités d’autres costumes ambigus ne sont pas inventées.
+
+**Lunaria Media 2.1.0 inclus**, JAR fourni inchangé : 51 216 011 octets, SHA-256 `6bf6eb890c37763b5d0bbf4e0056980098248111f8159696bfd1e894a13bd6ed`. Le pack contient 23 JAR de mods. Le chargement serveur/client, le bloc télévision et son menu français sont vérifiés. Les trois avancées du compagnon `q050`, `q051` et `q143` sont maintenant enregistrées ; leur accomplissement par les crafts n’a pas été testé.
+
+Les 70 constructions introduites en 0.15 restent présentes, dix par chacun des sept univers, avec les 21 précédentes : 91 choix naturels, douze petits donjons hors Lethal. La géologie, les minerais/équipements de 0.14, les blocs « ? », les portes March/Offense, l’intérieur Lethal partagé, les musiques et le ciel OMORI sont conservés.
+
+## Vérifications exécutées
+
+- `./gradlew runGameTestServer build --max-workers=2 --console=plain` : **59 tests requis exécutés et réussis**, exit 0 et BUILD SUCCESSFUL. Les 49 précédents contrôlent notamment les sept Lethal, les équipements, les portails et les 70 nouvelles constructions dans leurs quatre rotations. Dix tests ajoutés contrôlent la politique vanilla, la migration d’un générateur, onze types d’ennemis à projectiles physiques, les comptes à rebours et explosions préservant les blocs, Boo/Newtron, le point faible du Gardien des ruines et Hériss, la plante immobile et les effets Pyro/Cryo, la pacification des six nouveaux Darkners, les soins/enfouissement et le marteau consommable du joueur.
+- Après correction de palettes révélée au contrôle visuel, nouvelle compilation réussie ; aucun code d’IA n’a changé après les 59 tests. Les couleurs Pyro/Cryo ont été recontrôlées en client avec le JAR final.
+- Ressources : **3 183 JSON**, **50 modèles et hiérarchies d’animations**, 42 couches d’armures existantes et neuf animations de sprites d’équipement valides. Les 70 structures restent valides, avec douze donjons et aucun nouveau donjon Lethal. Le JAR ne contient pas les classes de GameTest et utilise Java major 61.
+- Serveur Forge réel et client avec **23 mods**, dont Lunaria 2.1.0 : connexion réussie, puis redémarrage avec le JAR final.
+- Migration sur **une copie** de la sauvegarde Normal 0.15, seed 20261015 : un zombie persistant enregistré avant mise à jour est absent après chargement ; un générateur `minecraft:zombie`, dans une construction Genshin placée volontairement pour le test à `-1347 153 -4273`, devient `hinaland:hilichurl`. Une nouvelle commande de zombie est également refusée malgré son message standard « Summoned » ; l’absence réelle est contrôlée ensuite. L’original est conservé. Cette construction de migration n’est pas présentée comme une génération naturelle.
+- Audit d’apparitions près de `-1300.5 151 -4248.5` dans cette copie : **13 Pyroblobs, 13 Cryoblobs et 7 Brutocollinus avec provenance NATURAL**, ainsi que des poules, vaches, cochons et moutons CHUNK_GENERATION. Aucun zombie/squelette/creeper dans cet échantillon. Le Gardien des ruines rencontré sans marque de provenance n’est pas compté comme preuve d’apparition naturelle.
+- Rendu client des **32 nouvelles créatures**, posé sur une plateforme de contrôle avec des invocations : captures Mario, Sonic, OMORI, DELTARUNE, Genshin et Overwatch. Les huit palettes Genshin/Overwatch modifiées ont été revues avec le JAR final. Ces captures ne constituent pas une preuve d’apparition naturelle ou de combat pour chacune des 32 espèces.
+- Le menu Lunaria « Télévision · fichier local » s’ouvre au clic droit. Les infobulles françaises « Capuche — costume Pingouin » et « Capuche — costume Grenouille » sont contrôlées en inventaire.
+
+Les journaux, captures, inventaires, références et manifeste sont inclus dans `audit/0.16` du modpack. Des erreurs des services d’authentification/vérification de mises à jour apparaissent dans cet environnement ; elles n’empêchent pas les tests ni cette connexion de contrôle hors ligne.
+
+## Apparences et références : limites précises
+
+**21 modèles voxel originaux** et **11 créatures sur plans 2D**. Les sprites OMORI/DELTARUNE proviennent des images de jeu référencées par leurs wikis ; toutes les images des GIF sont conservées et jouées à cadence uniforme de cinq ticks, pas selon les durées d’origine. SOMETHING n’a qu’une image et reçoit une animation de géométrie. Les sprites restent fins lorsqu’ils sont vus de côté. Les modèles voxel sont simples et demandent encore du travail artistique ; ils ne sont pas des reproductions exactes de modèles officiels.
+
+Les packs Genshin et Overwatch fournis ne contiennent aucune texture d’entité exploitable dans leur inventaire : leurs nouvelles créatures utilisent des modèles propres et des couleurs prélevées dans les textures de blocs fournies. Les PNG existants sont copiés inchangés, et les conversions GIF→PNG préservent leurs pixels. Les palettes Pyro/Cryo ont été corrigées pour éviter un Pyro brun et un Cryo vert.
+
+Les pages MarioWiki, OMORI Wiki et DELTARUNE Wiki ont été consultées pour les identités et inspirations. Les quatre noms français Genshin proviennent des données du jeu extraites dans `theBowja/genshin-db`, source communautaire, pas d’une page du développeur. Les pages dédiées Sonic/Overwatch sont partiellement bloquées (402/403 ou défi anti-bot malgré HTTP 200). L’actualité officielle Overwatch accessible via Steam confirme notamment Slicer/Secteur zéro ; elle ne valide pas tous les noms français des unités. Ceux-ci restent des traductions descriptives. Les références exactes et statuts sont consignés ; aucune consultation bloquée n’est présentée comme une comparaison réussie.
+
+La tenue bleue a bien les éléments du costume Pingouin, mais la couche de pantalon du pack Mario fourni est rouge ; cette incohérence artistique est visible en jeu et n’a pas été repeinte. Les autres identités de costumes non confirmées restent à examiner.
+
+## Ce qui reste à tester ou terminer
+
+- Équilibrage long en survie, fréquence de chacune des 32 espèces sur plusieurs seeds et combats simultanés à plusieurs joueurs. Les protections temporaires du joueur de contrôle excluent une conclusion d’équilibrage.
+- Fidélité artistique des modèles et IA : Boo utilise une navigation au sol, ne traverse pas les murs ; Topi Taupe disparaît visuellement sans creuser ; les segments Caterkiller sont animés, pas des entités séparées ; les attaques électriques sont des projectiles génériques ; les gardes réduisent les dégâts de projectiles sans bouclier directionnel complet. Les capacités sont des adaptations Minecraft, pas les systèmes complets des jeux.
+- Lecture réelle des fichiers audio/vidéo Lunaria, import/synchronisation de médias entre plusieurs clients, écoute des musiques : le client de contrôle utilise un backend audio muet. Le menu fonctionne, la lecture n’est pas annoncée comme vérifiée.
+- Le compagnon de quêtes du pack peut encore dupliquer des chapitres à chaque redémarrage. Le pack livré reprend une configuration propre, pas la configuration du serveur de test répétitivement relancé.
+- Les migrations antérieures à la copie 0.15 testée, tous les anciens générateurs atypiques et toutes les constructions sur plusieurs seeds ne sont pas validés exhaustivement.
+- Portage de coffres remplis par le Hoarding Bug, boucle Lethal complète, progression globale et refonte complète de l’End restent à développer. Les sept Lethal intégrés gardent leurs contraintes d’intérieur ; cette politique ne s’applique pas automatiquement au mod Jester externe.
+
+## Installation et reprise
+
+Remplacer l’ancien JAR Hina Land dans `mods` et conserver une seule version. Pour le pack, copier `mods`, `config` et `resourcepacks` dans une instance dédiée, remplacer l’ancien Lunaria et activer `HinaLand-integration-textures`. Sauvegarder le monde avant mise à jour. Les nouvelles apparitions et les libellés s’appliquent aux biomes existants ; les nouveaux bâtiments nécessitent de nouveaux chunks.
+
+Les sources contiennent les ressources générées nécessaires à la compilation. Pour régénérer dans cet environnement équipé des packs d’origine, exécuter les générateurs anciens dans leur ordre documenté, puis `create_universe_structures.py` et enfin `create_creature_expansion.py`. Exécuter ce dernier après les générateurs d’armures et de biomes, sinon ils peuvent restaurer les mauvais libellés ou les anciennes tables. Les références de sprites brutes sont retenues dans l’environnement, tandis que leurs PNG utilisables sont inclus dans les sources.
