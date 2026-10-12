@@ -1,0 +1,29 @@
+[
+  {
+    "file": "hinaland-0.15.0.jar",
+    "url": "https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/hinaland-0.15.0.jar",
+    "final_url": "https://raw.githubusercontent.com/TheAubina/ok/refs/heads/main/livrables/hinaland-0.15.0.jar",
+    "http_status": 200,
+    "bytes": 13157792,
+    "sha256": "a56c0f44eda635bd9829707552617e75e0899eacf39f337c3bfab7dd103b3fd1",
+    "matches": true
+  },
+  {
+    "file": "HinaLand-0.15.0-sources.zip",
+    "url": "https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.15.0-sources.zip",
+    "final_url": "https://raw.githubusercontent.com/TheAubina/ok/refs/heads/main/livrables/HinaLand-0.15.0-sources.zip",
+    "http_status": 200,
+    "bytes": 13526161,
+    "sha256": "8355c70a2073ac68c37cb10ec7443ea65cf2169032ae41273dda047ee77c6954",
+    "matches": true
+  },
+  {
+    "file": "HinaLand-0.15.0-modpack-test-9.zip",
+    "url": "https://github.com/TheAubina/ok/raw/refs/heads/main/livrables/HinaLand-0.15.0-modpack-test-9.zip",
+    "final_url": "https://raw.githubusercontent.com/TheAubina/ok/refs/heads/main/livrables/HinaLand-0.15.0-modpack-test-9.zip",
+    "http_status": 200,
+    "bytes": 33352926,
+    "sha256": "041abc67855f3f4be3f347232505b0cb513fb50d3c7996928373cc69b1b3f691",
+    "matches": true
+  }
+]
