@@ -1,0 +1,1812 @@
+{
+  "version": "0.15.0",
+  "new_count": 70,
+  "existing_count": 21,
+  "total_natural": 91,
+  "dungeons": 12,
+  "families": [
+    "mario",
+    "sonic",
+    "omori",
+    "deltarune",
+    "genshin",
+    "overwatch",
+    "lethal"
+  ],
+  "structures": [
+    {
+      "family": "mario",
+      "structure": "mario_toad_house",
+      "name_fr": "Maison champignon de Toad",
+      "size": [
+        11,
+        11,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 711,
+      "geometry_sha256": "bef8c530cbdaa775a547e61a4fabefa0103ffd1be0280880f0211c1a268d2daa",
+      "architecture": "mushroom",
+      "inspiration": "Toad Houses — New Super Mario Bros.",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_peach_gatehouse",
+      "name_fr": "Porte du jardin royal",
+      "size": [
+        11,
+        11,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 436,
+      "geometry_sha256": "bc34230c47574796e93fb1b6b89b5ee929e4308cd615143e3f666e1c93abff8e",
+      "architecture": "gate",
+      "inspiration": "Peach’s Castle — Super Mario 64",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_bobomb_watchtower",
+      "name_fr": "Tour du champ de bataille",
+      "size": [
+        11,
+        14,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 581,
+      "geometry_sha256": "66a49022c64609ed034009c11f317c4738cfe3c6b06caf9798ebe24e073019ff",
+      "architecture": "tower",
+      "inspiration": "Bob-omb Battlefield — Super Mario 64",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_yoshi_stable",
+      "name_fr": "Abri de Yoshi",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 419,
+      "geometry_sha256": "2a73b44633afe34f2e4bb15d309dded8f6ce41af54749017be1e77988966e415",
+      "architecture": "stable",
+      "inspiration": "Yoshi’s House — Super Mario World",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_underground_pipeworks",
+      "name_fr": "Galerie des tuyaux",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 496,
+      "geometry_sha256": "9c58ec78628b17090cabafda39fd7e35bcc488b21f9f83a24076c057f31b3692",
+      "architecture": "tunnel",
+      "inspiration": "World 1-2 — Super Mario Bros.",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_desert_pyramid",
+      "name_fr": "Pyramide des sables",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:goomba"
+        }
+      ],
+      "block_count": 555,
+      "geometry_sha256": "2a6bd679e609098452771205cab27119d03e682e605930962114ca7976c86267",
+      "architecture": "pyramid",
+      "inspiration": "Shifting Sand Land — Super Mario 64",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_boo_manor",
+      "name_fr": "Petit manoir des Boos",
+      "size": [
+        11,
+        14,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:dry_bones"
+        }
+      ],
+      "block_count": 678,
+      "geometry_sha256": "15e29b4cccf18ac0a220e3b6b879a2a4c63ca344d2f84341a24af3ce3714bf3d",
+      "architecture": "manor",
+      "inspiration": "Ghost Houses — Super Mario World",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_beanbean_market",
+      "name_fr": "Étal du Royaume Végésia",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 424,
+      "geometry_sha256": "8fc94b35cde58201bb2ca25aab75270dca9fcc8abec77c6684648934c8ccb3c9",
+      "architecture": "market",
+      "inspiration": "Beanbean Castle Town — Mario & Luigi: Superstar Saga",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_delfino_fountain",
+      "name_fr": "Fontaine de la place Delfino",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 383,
+      "geometry_sha256": "d04ee446001ab283295c4fa70a102d1df423fe8dfdf434bc54c499bd7b0092ee",
+      "architecture": "fountain",
+      "inspiration": "Delfino Plaza — Super Mario Sunshine",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "mario",
+      "structure": "mario_airship_wreck",
+      "name_fr": "Épave de vaisseau volant",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          4,
+          6
+        ]
+      ],
+      "spawners": [],
+      "block_count": 448,
+      "geometry_sha256": "00aadcfb7224627d859867f3e49a8d713840a489670215bd4f18b93d467d1729",
+      "architecture": "ship",
+      "inspiration": "Airships — Super Mario Bros. 3",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_green_hill_loop",
+      "name_fr": "Boucle de Green Hill",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 385,
+      "geometry_sha256": "a36b969025c2da0e6763b6b6067a428acfa80ed8e627ab1f21cea4ed444a77bc",
+      "architecture": "loop",
+      "inspiration": "Green Hill Zone — Sonic the Hedgehog",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_tails_workshop",
+      "name_fr": "Atelier de Tails",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 658,
+      "geometry_sha256": "e8c6df4b35305c734370a2512b992af1b774222dec2b713e7c1726075ac2599f",
+      "architecture": "workshop",
+      "inspiration": "Tails’s Workshop — Sonic Adventure",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_chemical_plant_station",
+      "name_fr": "Station Chemical Plant",
+      "size": [
+        11,
+        15,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:motobug"
+        }
+      ],
+      "block_count": 590,
+      "geometry_sha256": "3c99153cb608768e48fa8786c4dbca85ed72f849d3df966373fb6b45d6af07f8",
+      "architecture": "plant",
+      "inspiration": "Chemical Plant Zone — Sonic the Hedgehog 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_angel_island_altar",
+      "name_fr": "Autel d’Angel Island",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 441,
+      "geometry_sha256": "1bda680a9521b41e294b9c1ae6c4f25097b211e155188515a2bad3c1adfff483",
+      "architecture": "altar",
+      "inspiration": "Master Emerald altar — Sonic Adventure",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_casino_night_arcade",
+      "name_fr": "Arcade Casino Night",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 536,
+      "geometry_sha256": "cff2681719c8df75a3394144f091733072d0288674e85f8d48c0ce280a282354",
+      "architecture": "arcade",
+      "inspiration": "Casino Night Zone — Sonic the Hedgehog 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_hydrocity_aqueduct",
+      "name_fr": "Aqueduc de Hydrocity",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 569,
+      "geometry_sha256": "a0b9fc5f515450fdf72e6b4df0abb9527fcc41811ced4079fa3cde559cf95859",
+      "architecture": "aqueduct",
+      "inspiration": "Hydrocity Zone — Sonic the Hedgehog 3",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_stardust_speedway_gate",
+      "name_fr": "Portique Stardust Speedway",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 364,
+      "geometry_sha256": "714777c826d3ecaf42cb5b476d7d3e72a75cc3293683d6e9a10b391f9d414568",
+      "architecture": "gate",
+      "inspiration": "Stardust Speedway — Sonic CD",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_oil_ocean_refinery",
+      "name_fr": "Raffinerie Oil Ocean",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 360,
+      "geometry_sha256": "a3e91fe129dabab7c095a67c219e22213b977a966699c80bc0a00e4ab6660368",
+      "architecture": "refinery",
+      "inspiration": "Oil Ocean Zone — Sonic the Hedgehog 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_ice_cap_shelter",
+      "name_fr": "Refuge d’Ice Cap",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 659,
+      "geometry_sha256": "74c2ae413b3e1afaa4999a68a199d8a42e70d63847fab266cabda5ff583f6bc4",
+      "architecture": "cabin",
+      "inspiration": "Ice Cap Zone — Sonic the Hedgehog 3",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "sonic",
+      "structure": "sonic_death_egg_outpost",
+      "name_fr": "Avant-poste Death Egg",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:motobug"
+        }
+      ],
+      "block_count": 627,
+      "geometry_sha256": "b7100c3fc266c30c04ae83e6175b0ba2cbb2cd135c199c2e9297d50131ab9695",
+      "architecture": "bunker",
+      "inspiration": "Death Egg Zone — Sonic & Knuckles",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_basil_greenhouse",
+      "name_fr": "Serre de Basil",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 664,
+      "geometry_sha256": "7046e55ee1c0df08e21cace0440a376525f5d24d353c7639a7098d11b1aa94ce",
+      "architecture": "greenhouse",
+      "inspiration": "Basil’s House and flowers — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_neighbor_room",
+      "name_fr": "Pavillon des voisins",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 673,
+      "geometry_sha256": "3947ebd7e8fdde906e9eb3730d749ec65510d934dca3a12d4746874435bc93c2",
+      "architecture": "playroom",
+      "inspiration": "Neighbor’s Room — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_otherworld_campsite",
+      "name_fr": "Camp d’Otherworld",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 417,
+      "geometry_sha256": "64211e9b9f35a8173a250eb1f1292af45117f242d6ebe68fb04f2e0997e96a85",
+      "architecture": "camp",
+      "inspiration": "Otherworld Campsite — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_spaceboy_observatory",
+      "name_fr": "Observatoire de Space Boyfriend",
+      "size": [
+        11,
+        15,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 663,
+      "geometry_sha256": "dc5e5e017bc453404b07ee74c63a401c9db8f86ea17bde9fdf09f34bc514dbab",
+      "architecture": "observatory",
+      "inspiration": "Space Boyfriend’s House — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_sweetheart_keep",
+      "name_fr": "Petit château de Sweetheart",
+      "size": [
+        11,
+        11,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:sprout_mole"
+        }
+      ],
+      "block_count": 590,
+      "geometry_sha256": "a65d6e55f1941730ad9f8cd2531eb13b3d11c2cb798f9feb7c582d93baec9804",
+      "architecture": "keep",
+      "inspiration": "Sweetheart’s Castle — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_pyrefly_lantern_walk",
+      "name_fr": "Promenade de Pyrefly",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 360,
+      "geometry_sha256": "a14a81aebbfee3f304f32611de795f0c345b792eacf49668345144efe3e7d5c7",
+      "architecture": "lantern_walk",
+      "inspiration": "Pyrefly Forest — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_orange_oasis_ruin",
+      "name_fr": "Ruine d’Orange Oasis",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:sprout_mole"
+        }
+      ],
+      "block_count": 553,
+      "geometry_sha256": "a0a9d23aac5954b57403c077acec1dab30be772a78fdeff19b2e89ef46d88cc0",
+      "architecture": "pyramid",
+      "inspiration": "Dino’s Dig — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_snowglobe_cottage",
+      "name_fr": "Chalet de Snowglobe",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 659,
+      "geometry_sha256": "9a1aa95dac9f6990e730c31cbd44f0eb925628d62348a1abf8855e5e774ccb70",
+      "architecture": "cabin",
+      "inspiration": "Snowglobe Mountain — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_last_resort_kiosk",
+      "name_fr": "Kiosque du Last Resort",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 536,
+      "geometry_sha256": "3bfe4a41e5691332e266380e64800cb424d07f05073b0b8d181af75515dd777e",
+      "architecture": "arcade",
+      "inspiration": "Last Resort — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "omori",
+      "structure": "omori_deeper_well_shrine",
+      "name_fr": "Sanctuaire de Deeper Well",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 441,
+      "geometry_sha256": "b4b0932773057f937b1a31e925f7cc10e09ca64b01fbc7fe58dbace648b3b8a2",
+      "architecture": "shrine",
+      "inspiration": "Deeper Well — OMORI",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_castle_town_bakery",
+      "name_fr": "Boulangerie de Castle Town",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 671,
+      "geometry_sha256": "3eca5e47f80e3bc4a46e61f464aeaede73b87426661e6290ced64aea173e9ab5",
+      "architecture": "bakery",
+      "inspiration": "Castle Town bakery — DELTARUNE Chapter 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_card_castle_keep",
+      "name_fr": "Donjon du château des cartes",
+      "size": [
+        11,
+        11,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:rudinn"
+        }
+      ],
+      "block_count": 590,
+      "geometry_sha256": "d31e4626bbeac70206473f9e91c06bc1de0fe2719ace7bd02098390908f7c9a7",
+      "architecture": "keep",
+      "inspiration": "Card Castle — DELTARUNE Chapter 1",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_field_hopes_pavilion",
+      "name_fr": "Pavillon du Champ des Espoirs",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 435,
+      "geometry_sha256": "b3de1c294aed2c307fdfda4fae823513094137009d7db2389803cf3a0017688b",
+      "architecture": "pavilion",
+      "inspiration": "Field of Hopes and Dreams — DELTARUNE Chapter 1",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_forest_checker_bridge",
+      "name_fr": "Passage damier de la forêt",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 429,
+      "geometry_sha256": "137c4d7f4868b69844f099486571ee43cf29b67d8db2c9bc9eeb30047a271e95",
+      "architecture": "bridge",
+      "inspiration": "Forest checkerboard paths — DELTARUNE Chapter 1",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_cyber_city_crossing",
+      "name_fr": "Carrefour de Cyber City",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 344,
+      "geometry_sha256": "b2476235dfbe3ea64162a7144949adff5149132e710efe9ea484ea80003a5bd2",
+      "architecture": "crossing",
+      "inspiration": "Cyber City — DELTARUNE Chapter 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_spamton_shop",
+      "name_fr": "Boutique de Spamton",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 671,
+      "geometry_sha256": "db3eec2117e366c08bec60ac9d4fc578573f78ff32beb333efcff06641b600e7",
+      "architecture": "shop",
+      "inspiration": "Spamton’s shop — DELTARUNE Chapter 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_queen_signal_tower",
+      "name_fr": "Tour-relais de Queen",
+      "size": [
+        11,
+        16,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 582,
+      "geometry_sha256": "d7a554018152419b62c571500385b4c90945c504e07b9ce85df4ea132fd3a38c",
+      "architecture": "signal",
+      "inspiration": "Queen’s Mansion — DELTARUNE Chapter 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_mansion_basement",
+      "name_fr": "Annexe du sous-sol du manoir",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "hinaland:rudinn"
+        }
+      ],
+      "block_count": 627,
+      "geometry_sha256": "fe1e9260729bb6fa728fbee1a910b37fbd320a4ed743b451a0ac8fe45ce2d47d",
+      "architecture": "bunker",
+      "inspiration": "Queen’s Mansion basement — DELTARUNE Chapter 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_music_stage",
+      "name_fr": "Scène des musiciens",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 528,
+      "geometry_sha256": "29571cdf71efb069855bc29a765af38b30d16e9b43eda6b5983ff65d8cee953c",
+      "architecture": "stage",
+      "inspiration": "Sweet Cap’n Cakes — DELTARUNE Chapter 2",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "deltarune",
+      "structure": "deltarune_hometown_bookshop",
+      "name_fr": "Bibliothèque de Hometown",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 686,
+      "geometry_sha256": "b060f415cf0809ae64a5655b3fc2f60871e347912f11d6646fe0a34a0e7ddbff",
+      "architecture": "library",
+      "inspiration": "Hometown library — DELTARUNE",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_mondstadt_windmill",
+      "name_fr": "Moulin de Mondstadt",
+      "size": [
+        11,
+        14,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 589,
+      "geometry_sha256": "8aede6d86b185c5ffcf992774ceaae02abab1428f8994ac49ad087593141b08c",
+      "architecture": "windmill",
+      "inspiration": "Mondstadt windmills — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_dawn_winery_lodge",
+      "name_fr": "Loge du Domaine de l’Aurore",
+      "size": [
+        11,
+        14,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 676,
+      "geometry_sha256": "2b1e38daafaa9f407857617856a98c696a9eece5cfcdf7b10010cb1c5efebd8e",
+      "architecture": "manor",
+      "inspiration": "Dawn Winery — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_liyue_harbor_pavilion",
+      "name_fr": "Pavillon du port de Liyue",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 435,
+      "geometry_sha256": "ecf23c53d1d21de6ca3e88c1284e911ddb552bbf3436bb82f303dca487ba5b3e",
+      "architecture": "pavilion",
+      "inspiration": "Liyue Harbor — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_wangshu_waystation",
+      "name_fr": "Relais de Wangshu",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 416,
+      "geometry_sha256": "40e3c9e38daa1b3f6b8c739f7ec79b8e0117da9a14eb2ffc89eeca3be766dcc8",
+      "architecture": "stilt",
+      "inspiration": "Wangshu Inn — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_inazuma_torii",
+      "name_fr": "Torii d’Inazuma",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 364,
+      "geometry_sha256": "dc145ae3a3ffd2df30f91ed5023ff9f4f36c37eb5527a5df938b6e0dfb70d3c9",
+      "architecture": "torii",
+      "inspiration": "Grand Narukami Shrine — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_sumeru_study",
+      "name_fr": "Salle d’étude de Sumeru",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 686,
+      "geometry_sha256": "97b8fa7167125111bf239769d542a1478a02547551a3060a066011240edb024e",
+      "architecture": "library",
+      "inspiration": "Sumeru Akademiya — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_fontaine_clockwork",
+      "name_fr": "Atelier mécanique de Fontaine",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 658,
+      "geometry_sha256": "ddcfc0bddeb45dae0b29104a84e43761e20ef0f8c895f481a50fd823577726a5",
+      "architecture": "workshop",
+      "inspiration": "Fontaine clockwork mechanisms — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_dragonspine_camp",
+      "name_fr": "Camp des Monts Dosdragon",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 417,
+      "geometry_sha256": "1f8d5432a3fa3a5b5d52666a215ebb802bdd495b6359b88ebc21d6bb46706557",
+      "architecture": "camp",
+      "inspiration": "Dragonspine adventurer camp — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_hilichurl_encampment",
+      "name_fr": "Camp fortifié inspiré des Hilichurls",
+      "size": [
+        11,
+        11,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "minecraft:zombie"
+        }
+      ],
+      "block_count": 590,
+      "geometry_sha256": "237382feb9f0f10a156b0d19bcd884e6a8959d75f6395a4ffb109c7b0a27e35b",
+      "architecture": "fort",
+      "inspiration": "Hilichurl camps — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "genshin",
+      "structure": "genshin_ruin_guard_hall",
+      "name_fr": "Salle des ruines anciennes",
+      "size": [
+        11,
+        9,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "minecraft:zombie"
+        }
+      ],
+      "block_count": 520,
+      "geometry_sha256": "e73e671478c461dbd598525d25b6c2b4e3b52c52f2c649116d2684d49c37eae3",
+      "architecture": "ruin",
+      "inspiration": "Ruin Guard ruins — Genshin Impact",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_gibraltar_launchpad",
+      "name_fr": "Plateforme de Gibraltar",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 347,
+      "geometry_sha256": "63e8b1888c4d249d33e7cbffa37d81e63e7539fbf3a6706baab16050976e6d5d",
+      "architecture": "launchpad",
+      "inspiration": "Watchpoint: Gibraltar — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_hanamura_gate",
+      "name_fr": "Porte de Hanamura",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 364,
+      "geometry_sha256": "4232af9cc2976bf01c56fa87d375cf2610388f6756d6364eeef1198714664303",
+      "architecture": "torii",
+      "inspiration": "Hanamura — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_kings_row_pub",
+      "name_fr": "Pub de King’s Row",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 671,
+      "geometry_sha256": "fe488ae470ada3badd63f86dac67b495101626b222992ae9925420531294d404",
+      "architecture": "shop",
+      "inspiration": "King’s Row — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_route66_diner",
+      "name_fr": "Diner de Route 66",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 671,
+      "geometry_sha256": "dab247243e80a7a1fe857f0dd3c82af624856de30f9ef625facc7f64369a30d5",
+      "architecture": "diner",
+      "inspiration": "Route 66 — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_ilios_bell_tower",
+      "name_fr": "Clocher d’Ilios",
+      "size": [
+        11,
+        18,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 654,
+      "geometry_sha256": "548729f4103622f6f7c36168383081b2685276db9e1b785ba31f75ce0eb17773",
+      "architecture": "belltower",
+      "inspiration": "Ilios — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_lijiang_control",
+      "name_fr": "Poste de contrôle de Lijiang",
+      "size": [
+        11,
+        16,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 582,
+      "geometry_sha256": "825eaa4096270dfc8eb2ef5db35a6a1cd2814e1e81459e3939511bfbc4a6906e",
+      "architecture": "signal",
+      "inspiration": "Lijiang Tower — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_numbani_transit",
+      "name_fr": "Station de transit de Numbani",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 527,
+      "geometry_sha256": "c255e059e066c7960ffeca9e0634329d213a42e9b95ca9551a27f6a6fd869149",
+      "architecture": "transit",
+      "inspiration": "Numbani — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_eichenwalde_gatehouse",
+      "name_fr": "Fortin d’Eichenwalde",
+      "size": [
+        11,
+        11,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "minecraft:skeleton"
+        }
+      ],
+      "block_count": 590,
+      "geometry_sha256": "9d9175800213dc442be516ba8cbf7f975b57a890247f215413de1763f49a2fea",
+      "architecture": "keep",
+      "inspiration": "Eichenwalde — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_volskaya_machinehall",
+      "name_fr": "Halle industrielle de Volskaya",
+      "size": [
+        11,
+        15,
+        11
+      ],
+      "dungeon": true,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [
+        {
+          "position": [
+            3,
+            3,
+            7
+          ],
+          "entity": "minecraft:skeleton"
+        }
+      ],
+      "block_count": 590,
+      "geometry_sha256": "421a47e96dd35fb9a9d846be3e32c59e214faaaa3b3b963b2174ab831130eb70",
+      "architecture": "plant",
+      "inspiration": "Volskaya Industries — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "overwatch",
+      "structure": "overwatch_busan_music_square",
+      "name_fr": "Place musicale de Busan",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 528,
+      "geometry_sha256": "40d8cf26c57ef12085babddedfc6a4f99429be2517643c6f9d90facfbda982d7",
+      "architecture": "stage",
+      "inspiration": "Busan — Overwatch",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_landing_shuttle",
+      "name_fr": "Navette de débarquement",
+      "size": [
+        11,
+        7,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          4,
+          6
+        ]
+      ],
+      "spawners": [],
+      "block_count": 456,
+      "geometry_sha256": "fde3edfc3983b9ffe4d102b0bc13d3a58c7b6c4232acf2f5ac0e6dca71bff01f",
+      "architecture": "shuttle",
+      "inspiration": "Company ship — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_assurance_pump",
+      "name_fr": "Pompe extérieure d’Assurance",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 356,
+      "geometry_sha256": "7abbc59bb28b793ce5c1a5cd6b3a79e5ea7f3de7591624ee18f16f5967539b3b",
+      "architecture": "pump",
+      "inspiration": "Assurance industrial exterior — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_vow_dam",
+      "name_fr": "Petit barrage de Vow",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 569,
+      "geometry_sha256": "0f9b48db870b7b8cc9fc4263b3971996bbe7664ec7e14209f0ee760e2af663db",
+      "architecture": "dam",
+      "inspiration": "Vow bridge and dam — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_experimentation_rail",
+      "name_fr": "Quai ferroviaire d’Experimentation",
+      "size": [
+        11,
+        6,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 363,
+      "geometry_sha256": "3a522b10e9bee0aa3c3b0482bbd79e790c9392c54ca75aa6285592c1c989cd1a",
+      "architecture": "rail",
+      "inspiration": "Experimentation railway — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_rend_lampposts",
+      "name_fr": "Chemin des lampadaires de Rend",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 360,
+      "geometry_sha256": "40bcc4dcc66ac6ffb763f9f3655d426b52c139e84546fdafb48fa6237ae4465c",
+      "architecture": "lantern_walk",
+      "inspiration": "Rend lamp route — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_dine_checkpoint",
+      "name_fr": "Poste extérieur de Dine",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 398,
+      "geometry_sha256": "cc90979d358d060f0118f0fea9ca8f4cab6bf1f22086991549d76f3e2d6d29f9",
+      "architecture": "checkpoint",
+      "inspiration": "Dine entrance paths — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_titan_stairway",
+      "name_fr": "Escalier industriel de Titan",
+      "size": [
+        11,
+        10,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          9,
+          8
+        ]
+      ],
+      "spawners": [],
+      "block_count": 380,
+      "geometry_sha256": "7ce0f964da1944f9261195324faeb3f810388d6b8077fcd2ca779780028dd02c",
+      "architecture": "stairs",
+      "inspiration": "Titan exterior stairs — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_artifice_warehouse_yard",
+      "name_fr": "Cour de stockage d’Artifice",
+      "size": [
+        11,
+        7,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          5,
+          3,
+          3
+        ]
+      ],
+      "spawners": [],
+      "block_count": 438,
+      "geometry_sha256": "98f2bd7a6267f7473a2234368a217de7b87aeba090cf5eb1ae13ac4148460219",
+      "architecture": "yard",
+      "inspiration": "Artifice warehouses — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_embrion_relay",
+      "name_fr": "Relais d’Embrion",
+      "size": [
+        11,
+        13,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          3,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 376,
+      "geometry_sha256": "c370a35248e12ad7add85db69f865611226533dbae2fbb9c4aa4ce3fa9838974",
+      "architecture": "dish",
+      "inspiration": "Embrion machinery landscape — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    },
+    {
+      "family": "lethal",
+      "structure": "lethal_company_loading_dock",
+      "name_fr": "Quai de livraison de la Compagnie",
+      "size": [
+        11,
+        7,
+        11
+      ],
+      "dungeon": false,
+      "chests": [
+        [
+          7,
+          4,
+          7
+        ]
+      ],
+      "spawners": [],
+      "block_count": 397,
+      "geometry_sha256": "2acc831d40dbe88101c44331b2b5694a3f6fc800e5a4fb3855a735101d149e3d",
+      "architecture": "dock",
+      "inspiration": "Company building delivery counter — Lethal Company",
+      "interpretation": "Compact Minecraft reinterpretation, not an exact map conversion."
+    }
+  ],
+  "placement": {
+    "spacing": 48,
+    "separation": 24,
+    "frequency": 0.65,
+    "shared_salt": 137130
+  }
+}

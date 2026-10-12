@@ -1,0 +1,3 @@
+a56c0f44eda635bd9829707552617e75e0899eacf39f337c3bfab7dd103b3fd1  livrables/hinaland-0.15.0.jar
+8355c70a2073ac68c37cb10ec7443ea65cf2169032ae41273dda047ee77c6954  livrables/HinaLand-0.15.0-sources.zip
+041abc67855f3f4be3f347232505b0cb513fb50d3c7996928373cc69b1b3f691  livrables/HinaLand-0.15.0-modpack-test-9.zip
